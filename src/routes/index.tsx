@@ -273,7 +273,7 @@ function Index() {
           <div className="mt-10 grid grid-cols-1 gap-px border-t border-border sm:grid-cols-2 lg:grid-cols-4">
             {notes.map((n) => (
               <Reveal key={n.name}>
-                <div className="border-b border-border py-8 pr-6 lg:border-b-0 lg:border-r lg:pl-6 lg:first:pl-0">
+                <div className="border-b border-border py-8 pr-6 lg:border-b-0 lg:border-r lg:pl-6 lg:first:pl-0 lg:last:border-r-0">
                   <p className="text-xl font-bold tracking-[0.06em] text-foreground">{n.name}</p>
                   <p className="mt-2 text-sm font-light text-muted-foreground">{n.desc}</p>
                 </div>
