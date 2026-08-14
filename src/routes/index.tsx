@@ -60,16 +60,17 @@ function Index() {
         <section className="mx-auto max-w-[1400px] px-5 md:px-10">
           <div className="grid grid-cols-1 gap-10 border-b border-border py-10 md:py-16 lg:grid-cols-2 lg:gap-16">
             {/* Image */}
-            <div className="overflow-hidden bg-secondary">
+            <div className="flex aspect-[4/5] items-center justify-center overflow-hidden bg-secondary lg:sticky lg:top-28">
               <img
                 key={product.id}
                 src={product.image}
                 alt={`SARKAR ${product.name} ${product.size} parfum bottle`}
                 width={1200}
                 height={1400}
-                className="h-full max-h-[680px] w-full animate-in fade-in object-contain p-6 duration-500 transition-transform hover:scale-[1.03] md:p-12"
+                className="h-full w-full animate-in fade-in object-contain p-6 duration-500 transition-transform hover:scale-[1.03] md:p-12"
               />
             </div>
+
 
             {/* Info */}
             <div className="flex flex-col justify-center lg:py-6">
