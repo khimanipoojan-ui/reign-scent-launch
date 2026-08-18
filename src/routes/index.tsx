@@ -115,7 +115,7 @@ function Index() {
         </div>
 
         {/* PRODUCT */}
-        <section className="mx-auto max-w-[1400px] px-5 md:px-10">
+        <section id="buy" className="mx-auto max-w-[1400px] scroll-mt-24 px-5 md:px-10">
           <div className="grid grid-cols-1 gap-10 border-b border-border py-10 md:py-16 lg:grid-cols-2 lg:gap-16">
             {/* Image */}
             <div className="flex aspect-[4/5] items-center justify-center overflow-hidden bg-secondary lg:sticky lg:top-28">
