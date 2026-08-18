@@ -8,6 +8,7 @@ import { collection, products } from "@/data/products";
 import galleryDark from "@/assets/gallery-dark.jpg";
 import galleryCap from "@/assets/gallery-cap.jpg";
 import galleryNotes from "@/assets/gallery-notes.jpg";
+import heroBanner from "@/assets/hero-banner.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
