@@ -57,6 +57,63 @@ function Index() {
       <Header cartCount={cartCount} />
 
       <main>
+        {/* HERO */}
+        <section className="relative isolate overflow-hidden bg-[oklch(0.12_0_0)]">
+          <img
+            src={heroBanner}
+            alt="SARKAR REIGN chess-king parfum bottle in red smoke"
+            width={1920}
+            height={1088}
+            className="absolute inset-0 h-full w-full scale-105 object-cover opacity-80"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.1_0_0)]/90 via-[oklch(0.1_0_0)]/50 to-[oklch(0.1_0_0)]/95" />
+          <div className="relative mx-auto flex min-h-[78vh] max-w-[1400px] flex-col justify-end px-5 py-16 md:px-10 md:py-24">
+            <p className="text-[10px] font-semibold tracking-[0.4em] text-[oklch(0.72_0.14_18)]">
+              NEW LAUNCH — 2026
+            </p>
+            <h1 className="mt-5 text-[15vw] font-extrabold leading-[0.82] tracking-[-0.05em] text-[oklch(0.99_0_0)] md:text-[11rem]">
+              REIGN
+            </h1>
+            <div className="mt-7 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+              <p className="max-w-md text-sm font-light leading-relaxed text-[oklch(0.85_0_0)] md:text-base">
+                A chess-king cut in burgundy glass. Bergamot, black pepper, cardamom, amber and
+                vetiver — the scent of command.
+              </p>
+              <a
+                href="#buy"
+                className="group inline-flex w-fit items-center gap-3 border border-[oklch(1_0_0)]/30 px-9 py-4 text-[11px] font-semibold tracking-[0.2em] text-[oklch(0.99_0_0)] backdrop-blur-sm transition-colors hover:bg-[oklch(0.99_0_0)] hover:text-[oklch(0.12_0_0)]"
+              >
+                SHOP REIGN — ₹1,499
+                <span className="transition-transform group-hover:translate-x-1">→</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* TICKER */}
+        <div className="overflow-hidden border-y border-border bg-foreground py-3">
+          <div className="flex w-max animate-marquee">
+            {[0, 1].map((k) => (
+              <div key={k} className="flex shrink-0 items-center">
+                {[
+                  "25% OIL CONCENTRATION",
+                  "IFRA CERTIFIED",
+                  "LONG LASTING",
+                  "CRUELTY FREE",
+                  "FORMULATED IN FRANCE",
+                ].map((t) => (
+                  <span
+                    key={t}
+                    className="px-8 text-[11px] font-semibold tracking-[0.3em] text-background"
+                  >
+                    {t} ✦
+                  </span>
+                ))}
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* PRODUCT */}
         <section className="mx-auto max-w-[1400px] px-5 md:px-10">
           <div className="grid grid-cols-1 gap-10 border-b border-border py-10 md:py-16 lg:grid-cols-2 lg:gap-16">
