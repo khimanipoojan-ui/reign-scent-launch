@@ -194,8 +194,9 @@ function Index() {
                             src={p.thumb}
                             alt={`SARKAR ${p.name}`}
                             loading="lazy"
-                            width={800}
-                            height={1000}
+                            decoding="async"
+                            width={420}
+                            height={420}
                             className="h-full w-full object-contain"
                           />
                         </div>
@@ -295,6 +296,7 @@ function Index() {
                   src={galleryCap}
                   alt="Close-up of the chess-king cap of SARKAR REIGN"
                   loading="lazy"
+                  decoding="async"
                   width={1200}
                   height={900}
                   className="h-[220px] w-full object-cover md:h-[302px]"
@@ -305,6 +307,7 @@ function Index() {
                   src={galleryNotes}
                   alt="Bergamot, black pepper, cardamom, lavender, cedarwood and amber"
                   loading="lazy"
+                  decoding="async"
                   width={1200}
                   height={900}
                   className="h-[220px] w-full object-cover md:h-[302px]"
@@ -365,8 +368,9 @@ function Index() {
                       src={c.thumb}
                       alt={`SARKAR ${c.name}`}
                       loading="lazy"
-                      width={800}
-                      height={1000}
+                      decoding="async"
+                      width={420}
+                      height={420}
                       className="h-full w-full object-contain transition-transform duration-500 hover:scale-[1.04]"
                     />
                   </div>
