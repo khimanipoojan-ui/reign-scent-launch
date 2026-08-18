@@ -66,8 +66,8 @@ function Index() {
             height={1088}
             className="absolute inset-0 h-full w-full scale-105 object-cover opacity-80"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.1_0_0)]/90 via-[oklch(0.1_0_0)]/50 to-[oklch(0.1_0_0)]/95" />
-          <div className="relative mx-auto flex min-h-[78vh] max-w-[1400px] flex-col justify-end px-5 py-16 md:px-10 md:py-24">
+          <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.1_0_0)]/30 via-[oklch(0.1_0_0)]/50 to-[oklch(0.1_0_0)]/90" />
+          <div className="relative mx-auto flex min-h-[72vh] max-w-[1400px] flex-col justify-end px-5 py-16 md:px-10 md:py-24">
             <p className="text-[10px] font-semibold tracking-[0.4em] text-[oklch(0.72_0.14_18)]">
               NEW LAUNCH — 2026
             </p>
