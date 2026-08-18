@@ -9,6 +9,7 @@ import galleryDark from "@/assets/gallery-dark.webp";
 import galleryCap from "@/assets/gallery-cap.webp";
 import galleryNotes from "@/assets/gallery-notes.webp";
 import heroBanner from "@/assets/hero-banner.webp";
+import heroBannerSm from "@/assets/hero-banner-sm.webp";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -61,9 +62,13 @@ function Index() {
         <section className="relative isolate overflow-hidden bg-[oklch(0.12_0_0)]">
           <img
             src={heroBanner}
+            srcSet={`${heroBannerSm} 980w, ${heroBanner} 1920w`}
+            sizes="100vw"
             alt="SARKAR REIGN chess-king parfum bottle in red smoke"
             width={1920}
             height={1088}
+            fetchPriority="high"
+            decoding="async"
             className="absolute inset-0 h-full w-full scale-105 object-cover opacity-80"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.1_0_0)]/30 via-[oklch(0.1_0_0)]/50 to-[oklch(0.1_0_0)]/90" />
@@ -122,6 +127,7 @@ function Index() {
               <img
                 key={product.id}
                 src={product.image}
+                decoding="async"
                 alt={`SARKAR ${product.name} ${product.size} parfum bottle`}
                 width={1200}
                 height={1400}
@@ -185,7 +191,7 @@ function Index() {
                       >
                         <div className="aspect-square overflow-hidden bg-secondary">
                           <img
-                            src={p.image}
+                            src={p.thumb}
                             alt={`SARKAR ${p.name}`}
                             loading="lazy"
                             width={800}
@@ -356,7 +362,7 @@ function Index() {
                       </span>
                     )}
                     <img
-                      src={c.image}
+                      src={c.thumb}
                       alt={`SARKAR ${c.name}`}
                       loading="lazy"
                       width={800}
