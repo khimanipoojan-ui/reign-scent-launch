@@ -1,8 +1,13 @@
-import reignImg from "@/assets/reign-hero.jpg";
-import nobleImg from "@/assets/noble.jpg";
-import regalImg from "@/assets/regal.jpg";
-import throneImg from "@/assets/throne.jpg";
-import orionImg from "@/assets/orion.jpg";
+import reignImg from "@/assets/reign-hero.webp";
+import reignThumb from "@/assets/reign-hero-sm.webp";
+import nobleThumb from "@/assets/noble-sm.webp";
+import regalThumb from "@/assets/regal-sm.webp";
+import throneThumb from "@/assets/throne-sm.webp";
+import orionThumb from "@/assets/orion-sm.webp";
+import nobleImg from "@/assets/noble.webp";
+import regalImg from "@/assets/regal.webp";
+import throneImg from "@/assets/throne.webp";
+import orionImg from "@/assets/orion.webp";
 
 export type Product = {
   id: string;
