@@ -33,7 +33,7 @@ export const products: Product[] = [
     tags: ["UNISEX", "SPICY", "PARFUM"],
     occasions: "EVERYDAY • EVENINGS • SIGNATURE MOMENTS",
     description: "It smells like confidence, spice and a lasting impression.",
-    price: 1499,
+    price: 100000,
     isNew: true,
   },
   {
@@ -45,7 +45,7 @@ export const products: Product[] = [
     tags: ["UNISEX", "FRESH", "PARFUM"],
     occasions: "DAYTIME • OFFICE • EVERYDAY",
     description: "It smells like clean linen, citrus air and quiet authority.",
-    price: 1499,
+    price: 100000,
   },
   {
     id: "regal",
@@ -56,7 +56,7 @@ export const products: Product[] = [
     tags: ["UNISEX", "GREEN", "PARFUM"],
     occasions: "MORNINGS • WEEKENDS • OUTDOORS",
     description: "It smells like crushed leaves, cool air and easy elegance.",
-    price: 1499,
+    price: 100000,
   },
   {
     id: "throne",
@@ -67,7 +67,7 @@ export const products: Product[] = [
     tags: ["UNISEX", "WOODY", "PARFUM"],
     occasions: "EVENINGS • DINNERS • LATE NIGHTS",
     description: "It smells like dark wood, smoke and unhurried power.",
-    price: 1499,
+    price: 100000,
   },
 ];
 
